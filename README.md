@@ -20,18 +20,17 @@
 
 ****
 
-# 🌟Website_login_mode
-🌟收集了一些各大网站登陆方式， 和一些网站的爬虫程序，有的是通过selenium登录，有的是通过抓包直接模拟登录，有的是利用scrapy,希望对小白有所帮助,本项目用于研究和分享各大网站的模拟登陆方式，和爬虫程序，会持续更新。。。
+# Website_login_mode
+收集了一些各大网站登陆方式， 和一些网站的爬虫程序，有的是通过selenium登录，有的是通过抓包直接模拟登录，有的是利用scrapy,希望对小白有所帮助,本项目用于研究和分享各大网站的模拟登陆方式，和爬虫程序，会持续更新。。。
 
 ## 模拟登录一些常见的网站和爬取相应的信息
 
 
 ## About
 
-模拟登陆基本采用的是直接登录或者使用selenium+webdriver的方式，有的网站直接登录难度很大，比如qq空间，bilibili等如果采用selenium就相对轻松一些。
+模拟登陆基本采用的是直接登录或者使用selenium+webdriver的方式，有的网站直接登录难度很大，比如qq空间，如果采用selenium就相对轻松一些。
 
 虽然在登录的时候采用的是selenium,为了效率，我们可以在登录过后得到的cookie维护起来，然后调用requests或者scrapy等进行数据采集，这样数据采集的速度可以得到保证。
-
 
 ## Done
 
@@ -57,22 +56,30 @@
 
 ## show
 
-- bilibili自动登录测试正常，成功率98%
+### bilibili自动登录测试正常，成功率98%
 
 ![](./image/bilibili.jpg)
 
-- web微信
+### web微信
 
 
 ![Alt text](./image/weixin.jpg)
 
-- 图虫爬虫
+### 图虫爬虫
 
 ![](./image/Jietu20190306-232224.jpg)
 
 ![](./image/Jietu20190306-232303.jpg)
 
-- guoke.spider使用需谨慎，下载的比较快！10秒能下载一堆，截图我就不展示了，已经删除☺
+### 淘宝 - 淘宝网
+- taobao.py 为模拟登录
+- 剩下的为爬虫
+
+```
+1. 爬取淘宝各子标签，按销量排名商品信息，按分类保存至MongoDB
+2. 通过pandas进行数据分析
+3. 将商品在各省分布、销量排行、地图分布等通过matplotlib绘图显示
+```
 
 ## tips of pull request 
 
@@ -100,5 +107,5 @@
 
 ## Written at the end
 - I need your support.
-- And I think you can give me a 🌟``star``!
+- And I think you can give me a ``star``!
 
