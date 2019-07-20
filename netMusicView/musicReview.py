@@ -3,7 +3,13 @@
 # @Time : 2019-07-20
 # @Author : lei.X
 
+'''
+网易云音乐评论爬取
+主要技术点：
+    1、对ajax && 加密接口的分析破解
+    2、大量爬取需要代理IP池
 
+'''
 # -*- coding:utf-8 -*-
 
 import urllib.request
